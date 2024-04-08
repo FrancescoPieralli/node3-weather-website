@@ -3,6 +3,7 @@ const path = require('path')
 const hbs = require('hbs')
 const geocode = require('./utils/geocode.js')
 const forecast = require('./utils/forecast.js')
+const PORT = process.env.PORT || 3000
 
 console.log("Per git");
 
@@ -104,5 +105,5 @@ app.get('*',(req,res) => {
 })
 
 app.listen(3000,()=> {
-    console.log("Server is running");
+    console.log(`Server is running on ${PORT}`);
 })
