@@ -4,7 +4,7 @@ const hbs = require('hbs')
 const geocode = require('./utils/geocode.js')
 const forecast = require('./utils/forecast.js')
 
-
+console.log("Per git");
 
 const app = express();
 const publicDirectoryPath = path.join(__dirname,'../public' )
