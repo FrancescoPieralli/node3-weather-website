@@ -3,7 +3,7 @@ const path = require('path')
 const hbs = require('hbs')
 const geocode = require('./utils/geocode.js')
 const forecast = require('./utils/forecast.js')
-const request = require('postman-request')
+
 
 
 const app = express();
